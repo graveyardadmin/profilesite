@@ -3,7 +3,7 @@ export default function Steph() {
     <div className="center">
       <h1 className="magic">Hello!</h1>
 
-      <p>Hi hey my name is steph.</p>
+      <p>Hi I'm Steph and I'm a loser.</p>
     </div>
   )
 }
