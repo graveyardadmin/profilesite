@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins&family=Roboto&display=swap');
+
 :root {
   --gunmetal: #1B1D22;
   --ivory: #F2F5EA;
@@ -29,4 +31,12 @@
 html,body {
   padding: 0;
   margin: 0;
+
+  background-color: var(--gunmetal);
+  color: var(--ivory);
+  font-family: 'Poppins', sans-serif;
+}
+
+.center {
+  text-align: center;
 }

@@ -4,6 +4,9 @@ import styles from '@/styles/Home.module.css'
 export default function Home() {
   return (
     <div className={styles.home}>
+      <Head>
+        <title>3x00</title>
+      </Head>
       <h1><i className="orange">Fully</i> customisable single page websites, for <b className="magic">free.</b></h1>
       <a href="https://discord.com/">Read more.</a>
     </div>
