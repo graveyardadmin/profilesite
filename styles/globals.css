@@ -8,6 +8,21 @@
   --rufous: #9B2915;
 }
 
+html,body {
+  padding: 0;
+  margin: 0;
+}
+
+div.template {
+  background-color: var(--gunmetal);
+  color: var(--ivory);
+  font-family: 'Poppins', sans-serif;
+}
+
+.center {
+  text-align: center;
+}
+
 .indigo {
   color: var(--indigo);
 }
@@ -26,17 +41,4 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-
-html,body {
-  padding: 0;
-  margin: 0;
-
-  background-color: var(--gunmetal);
-  color: var(--ivory);
-  font-family: 'Poppins', sans-serif;
-}
-
-.center {
-  text-align: center;
 }
