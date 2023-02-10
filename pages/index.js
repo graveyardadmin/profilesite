@@ -1,14 +1,18 @@
 import Head from 'next/head'
-import styles from '@/styles/Home.module.css'
+import Link from 'next/link'
 
 export default function Home() {
   return (
-    <div className={styles.home}>
-      <Head>
-        <title>3x00</title>
-      </Head>
-      <h1><i className="orange">Fully</i> customisable single page websites, for <b className="magic">free.</b></h1>
-      <a href="https://discord.com/">Read more.</a>
+    <div className="template">
+      <section className='template-section center'>
+        <Head>
+          <title>3x00</title>
+        </Head>
+        <h1><i className="orange">Fully</i> customisable single page websites, for <b className="magic">free.</b></h1>
+        <br/>
+        <Link href="/about"><a>Read more.</a></Link>
+      </section>
+
     </div>
   )
 }

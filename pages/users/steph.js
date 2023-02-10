@@ -1,9 +1,21 @@
+import HomeButton from "@/components/HomeButton";
+import Head from "next/head";
+
 export default function Steph() {
   return(
     <div className="center template">
-      <h1 className="magic">Hello!</h1>
+      <Head>
+        <title>Hi!</title>
+      </Head>
 
-      <p>Hi I'm Steph and I'm a loser.</p>
+      <section className="template-section">
+        <HomeButton/>
+
+        <h1 className="magic">Hello!</h1>
+
+        <p>Hi I'm Steph and I'm a loser.</p>
+      </section>
+
     </div>
   )
 }
