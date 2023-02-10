@@ -104,8 +104,25 @@ section.template-section {
 
   text-align: center;
 
-  
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(16, 16, 17, 0.8);
 
   font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (max-width: 950px) {
+  .homeNav {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    padding: 0px;
+
+    border-radius:0px;
+
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    
+    margin: 0px;
+  }
 }
