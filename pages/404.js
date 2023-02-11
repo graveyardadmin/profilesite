@@ -3,7 +3,7 @@ import Head from 'next/head';
 
 export default function FourOhFour() {
   return (
-    <div className='template center'>
+    <div className='template center center-section'>
       <section className="template-section">
         <Head>
           <title>404 - Page not found</title>

@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <div className="template">
+    <div className="template center-section">
       <section className='template-section center'>
         <Head>
           <title>3x00</title>
