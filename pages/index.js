@@ -8,9 +8,17 @@ export default function Home() {
         <Head>
           <title>3x00</title>
         </Head>
-        <h1><i className="orange">Fully</i> customisable single page websites, for <b className="magic">free.</b></h1>
+
+        <h1>
+          <i className="orange">Fully</i> customisable
+          single page websites,
+          for <b className="magic">free.</b>
+        </h1>
+
         <p>.. did I mention it's open source?</p>
+
         <br/>
+        
         <Link href="/about"><a>Read more.</a></Link>
       </section>
 

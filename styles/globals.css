@@ -45,10 +45,43 @@ div.template {
   align-items: center;
 }
 
+
+/* animations */
+@keyframes fadeIn {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@keyframes slideInLeft {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+
+@keyframes slideInTop {
+  0% {
+    top: -100%;
+  }
+  100% {
+    top: 0%;
+  }
+}
+
 section.template-section {
   width: 60%;
 
   padding-bottom: 5rem;
+
+  animation-name: fadeIn;
+  animation-duration: 0.4s;
+  animation-timing-function: linear;
 }
 
 @media screen and (max-width: 950px) {
@@ -112,6 +145,10 @@ div.center-section{
   background-color: rgba(16, 16, 17, 0.8);
 
   font-family: 'Poppins', sans-serif;
+
+  animation-name: slideInLeft;
+  animation-duration: 0.2s;
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 @media screen and (max-width: 950px) {
@@ -129,5 +166,9 @@ div.center-section{
     padding-bottom: 0.4rem;
     
     margin: 0px;
+
+    animation-name: slideInTop;
+    animation-duration: 0.2s;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
   }
 }
