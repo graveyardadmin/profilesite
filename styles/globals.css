@@ -45,6 +45,21 @@ div.template {
   align-items: center;
 }
 
+.no-bg {
+  background-color: rgba(0,0,0,0) !important;
+}
+
+.backgrounder {
+  background: linear-gradient(18deg, rgba(0,0,0,1) 0%, rgba(9,35,64,1) 100%);
+  top: 0;
+  left: 0;
+
+  z-index: -1;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+}
+
 
 /* animations */
 @keyframes fadeIn {
@@ -58,7 +73,7 @@ div.template {
 
 @keyframes slideInLeft {
   0% {
-    left: -100%;
+    left: -50%;
   }
   100% {
     left: 0%;
@@ -90,7 +105,7 @@ section.template-section {
   }
 
   section.template-section:nth-child(1) {
-    margin-top: 2rem;
+    padding-top: 2rem;
   }
 }
 
@@ -142,13 +157,13 @@ div.center-section{
 
   text-align: center;
 
-  background-color: rgba(16, 16, 17, 0.8);
+  background-color: rgba(11, 16, 26, 0.8);
 
   font-family: 'Poppins', sans-serif;
 
   animation-name: slideInLeft;
-  animation-duration: 0.2s;
-  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  animation-duration: 0.3s;
+  animation-timing-function: ease-out;
 }
 
 @media screen and (max-width: 950px) {
