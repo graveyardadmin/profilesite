@@ -1,3 +1,4 @@
+import LinkList from '@/components/LinkList'
 import Head from 'next/head'
 import Link from 'next/link'
 
@@ -19,7 +20,11 @@ export default function Home() {
 
           <br/>
 
-          <Link href="/about"><a>Read more.</a></Link>
+          <LinkList>
+            <Link href="/about"><a>Read more</a></Link>
+            <Link href="/search"><a>Search users</a></Link>
+            <Link href="/top"><a>Top profiles</a></Link>
+          </LinkList>
         </section>
 
         <div className='backgrounder'>
