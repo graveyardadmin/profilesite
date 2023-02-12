@@ -131,21 +131,21 @@ div.center-section{
 
 @keyframes gradient {
   0% {
-    background-position: 0% 50%;
+    background-position: 25% 100%;
   }
   50% {
-    background-position: 100% 50%;
+    background-position: 50% 100%;
   }
   100% {
-    background-position: 0% 50%;
+    background-position: 25% 100%;
   }
 }
 
 .magic {
   background: linear-gradient(120deg, rgb(255, 60, 0) 0px, rgb(119, 0, 255) 100%);
 
-  background-size: 400% 400%;
-  animation: gradient 20s ease infinite;
+  background-size: 200% 200%;
+  animation: gradient 5s linear infinite;
 
   -webkit-background-clip: text;
   background-clip: text;
@@ -208,7 +208,7 @@ div.center-section{
 
     animation-name: slideInTop;
     animation-duration: 0.2s;
-    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-timing-function: ease-out;
   }
 }
 

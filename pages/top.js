@@ -1,4 +1,5 @@
 import HomeButton from "@/components/HomeButton";
+import LinkCard from "@/components/LinkCard";
 import Link from "next/link";
 
 export default function Top() {
@@ -7,14 +8,19 @@ export default function Top() {
       <section className="template-section">
         <h1 className="magic">Top profiles</h1>
 
-        <p className="background">
-          <b className="orange">Valdemar</b> 
-          <br/>
-          I chose this because it's me 
-          <br/>
-          <br/>
-          <Link href="/users/valdemar">Visit.</Link>
-        </p>
+        <LinkCard 
+          title="Valdemar" 
+          description="I chose this because it's me and I'm the best"
+          url="/users/valdemar"
+          link_text="Visit"
+        />
+
+        <LinkCard 
+          title="Steph" 
+          description="I chose this because there is literally zero other users"
+          url="/users/steph"
+          link_text="Visit (yucky)"
+        />
 
       </section>
 
