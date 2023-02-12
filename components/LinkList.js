@@ -1,7 +1,6 @@
 export default function LinkList(props) {
   return(
-    <div className="link-list">
-      <h3 className="magic">{props.title}</h3>
+    <div className="link-list background center-me">
       {props.children}
     </div>
   );

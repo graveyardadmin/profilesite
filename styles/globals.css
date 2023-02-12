@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
 
 :root {
   --gunmetal: #1B1D22;
   --ivory: #F2F5EA;
-  --orange: #FE9000;
+  --orange: #fe5000;
   --indigo: #9B7EDE;
   --dark-indigo: #826ab9;
-  --rufous: #ff1e00;
+  --light-sea: #17a1a6;
+  --yellow: #F9DB6D;
 }
 
 html,body {
@@ -23,6 +25,19 @@ a {
 
 a:hover {
   color: var(--dark-indigo);
+}
+
+h1 {
+  margin-top: 0.6rem;
+  font-size: 2rem;
+}
+
+hr {
+  height: 1px;
+  background-color: var(--ivory);
+  border: none;
+
+  margin-bottom: 2rem;
 }
 
 div.template {
@@ -92,7 +107,7 @@ div.template {
 section.template-section {
   width: 60%;
 
-  padding-bottom: 5rem;
+  padding-bottom: 1.2rem;
 
   animation-name: fadeIn;
   animation-duration: 0.4s;
@@ -105,7 +120,7 @@ section.template-section {
   }
 
   section.template-section:nth-child(1) {
-    padding-top: 2rem;
+    margin-top: 3rem;
   }
 }
 
@@ -113,20 +128,13 @@ section.template-section {
   text-align: center;
 }
 
+.center-me {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 div.center-section{
   justify-content: center;
-}
-
-.indigo {
-  color: var(--indigo);
-}
-
-.rufous {
-  color: var(--rufous);
-}
-
-.orange {
-  color: var(--orange);
 }
 
 @keyframes gradient {
@@ -161,6 +169,22 @@ div.center-section{
   width: fit-content;
 }
 
+.snippet {
+  font-family: 'Ubuntu Mono', monospace;
+
+  background-color: rgba(0,0,0,0.3);
+
+  padding: 0.4rem;
+
+  width: fit-content;
+
+  border-radius: 4px;
+}
+
+.background h1,.background h2,.background h3,.background h4,.background h5,.background h6 {
+  margin-top: 0px;
+} 
+
 .homeNav {
   position: fixed;
   top: 0;
@@ -181,7 +205,7 @@ div.center-section{
 
   text-align: center;
 
-  background-color: rgba(11, 16, 26, 0.8);
+  background-color: rgba(0, 0, 0, 0.5);
 
   font-family: 'Poppins', sans-serif;
 
@@ -218,4 +242,44 @@ div.link-list {
 
   justify-content: center;
   align-items: center;
+}
+
+/* coloured divs */
+.indigo-div {
+  background-color: var(--indigo) !important;
+  color: var(--gunmetal) !important;
+}
+
+.ivory-div {
+  background-color: var(--ivory) !important;
+  color: var(--gunmetal) !important;
+}
+
+.rufous-div {
+  background-color: var(--rufous) !important;
+  color: var(--gunmetal) !important;
+}
+
+.orange-div {
+  background-color: var(--orange) !important;
+  color: var(--gunmetal) !important;
+}
+
+.gunmetal-div {
+  background-color: var(--gunmetal) !important;
+  color: var(--ivory) !important;
+}
+
+.lightsea-div {
+  background-color: var(--light-sea) !important;
+  color: var(--gunmetal) !important;
+}
+
+.yellow-div {
+  background-color: var(--yellow) !important;
+  color: var(--gunmetal) !important;
+}
+
+.orange {
+  color: var(--orange);
 }
