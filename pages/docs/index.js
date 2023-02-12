@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Docs() {
   return(
     <div className="template">
-      <section className="template-section">
+      <section className="template-section background">
         <h1 className="magic">Docs</h1>
 
         <p>
