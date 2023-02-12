@@ -21,7 +21,7 @@ export default function Home() {
           <br/>
 
           <LinkList>
-            <Link href="/about"><a>Read more</a></Link>
+            <Link href="/docs"><a>Docs</a></Link>
             <Link href="/search"><a>Search users</a></Link>
             <Link href="/top"><a>Top profiles</a></Link>
           </LinkList>

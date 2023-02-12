@@ -25,6 +25,16 @@ a:hover {
   color: var(--dark-indigo);
 }
 
+h1 {
+  font-size: 2rem;
+}
+
+hr {
+  height: 1px;
+  background-color: var(--ivory);
+  border: none;
+}
+
 div.template {
   background-color: var(--gunmetal);
   color: var(--ivory);
